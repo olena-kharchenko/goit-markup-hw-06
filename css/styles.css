@@ -228,6 +228,9 @@ button {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -253,6 +256,17 @@ button {
   border-radius: 4px;
 }
 
+.modal-title {
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
 .close-modal {
   position: absolute;
   top: 0;
@@ -266,6 +280,40 @@ button {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.backdrop .form-field input {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding: 12px 16px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+}
+
+.backdrop .form-field label {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: var(--title-text-color);
+
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 120px;
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 
@@ -614,7 +662,7 @@ button {
 }
 
 .social .link,
-.form-field label {
+.page-footer .form-field label {
 
   margin-bottom: 21px;
 
@@ -687,7 +735,7 @@ button {
   padding: 0; */
 }
 
-.form-field input {
+.page-footer .form-field input {
   margin: 0;
   padding: 0;
   width: 358px;

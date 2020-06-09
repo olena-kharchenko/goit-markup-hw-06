@@ -49,18 +49,41 @@
     <section class="hero overlay">
       <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
       <button class="button" data-modal-open>Заказать услугу</button>
-
+      <!-- Модальное окно -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
           <button class="close-modal" data-modal-close><svg width="11" height="11">
               <use href="./images/sprite.svg#icon-close"></use>
             </svg></button>
+          <form action="" class="form">
+
+            <div class="form-field">
+              <label for="name">Имя</label>
+              <input type="text" name="name" id="name" autofocus />
+            </div>
+
+            <div class="form-field">
+              <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
+
+            <div class="form-field">
+              <label for="mail">Почта</label>
+              <input type="email" name="mail" id="mail" />
+            </div>
+
+            <div class="form-field">
+              <label for="comment">Комментарий</label>
+              <textarea class="comment" name="comment" id="comment" rows="8"></textarea>
+            </div>
+          </form>
+
         </div>
 
       </div>
     </section>
-    <!-- Модальное окно -->
+
 
 
 
