@@ -48,8 +48,21 @@
     <!-- Герой -->
     <section class="hero overlay">
       <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-      <a href="" class="button">Заказать услугу</a>
+      <button class="button" data-modal-open>Заказать услугу</button>
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <button class="close-modal" data-modal-close><svg width="11" height="11">
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg></button>
+        </div>
+
+      </div>
     </section>
+    <!-- Модальное окно -->
+
+
 
     <!-- Преимущества -->
     <section class="section underline">
@@ -380,6 +393,12 @@
       <p class="author">2020 | Developed by GoIT Students</p>
     </div>
   </footer>
+
+
+
+
+
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
