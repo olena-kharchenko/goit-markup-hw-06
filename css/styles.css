@@ -299,6 +299,9 @@ button {
 
 .backdrop .form-field label {
   position: absolute;
+  left: 50px;
+
+  z-index: 3;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -316,6 +319,9 @@ textarea {
   border-radius: 4px;
 }
 
+.form .button {
+  margin-top: 30px;
+}
 
 
 /* Overlay */
