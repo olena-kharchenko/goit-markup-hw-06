@@ -1,0 +1,12 @@
+{
+  « ширина печати » : 80,
+    " tabWidth ": 2,
+    " useTabs ": ложь ,
+    " полу ": правда ,
+    " singleQuote ": правда ,
+    " trailingComma ": " все ",
+    " cketSpacing ": правда ,
+    " jsxBracketSameLine ": ложь ,
+  « arrowParens » : « избегать » ,
+    " proseWrap ": " всегда "
+}
