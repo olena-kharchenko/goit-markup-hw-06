@@ -1,486 +1,385 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio v.1</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!--Шапка сайта-->
-    <header class="header-studio">
-      <div class="container flex-header">
-        <nav class="flex-nav">
-          <a href="./index.html" class="logo"
-            ><span class="accent">Web</span> Studio</a
-          >
 
-          <ul class="site-nav list flex-nav">
-            <li class="item">
-              <a href="./index.html" class="link current">Студия</a>
-            </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
-            </li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
-          </ul>
-        </nav>
-        <address class="contacts-nav mail-nav">
-          <a href="mailto:info@devstudio.com" class="link"
-            ><svg class="nav-icon" width="16" height="11">
-              <use href="./images/sprite.svg#icon-envelope"></use>
-            </svg>
-            info@devstudio.com</a
-          >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Studio v.1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-          <a href="tel:+380961111111" class="link">
-            <svg class="nav-icon" width="10" height="15">
-              <use href="./images/sprite.svg#icon-smartphone"></use>
-            </svg>
-            +38 096 111 11 11</a
-          >
-        </address>
+<body>
+  <!--Шапка сайта-->
+  <header class="header-studio">
+    <div class="container flex-header">
+      <nav class="flex-nav">
+        <a href="./index.html" class="logo"><span class="accent">Web</span> Studio</a>
+
+        <ul class="site-nav list flex-nav">
+          <li class="item">
+            <a href="./index.html" class="link current">Студия</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="item"><a href="" class="link">Контакты</a></li>
+        </ul>
+      </nav>
+      <address class="contacts-nav mail-nav">
+        <a href="mailto:info@devstudio.com" class="link"><svg class="nav-icon" width="16" height="11">
+            <use href="./images/sprite.svg#icon-envelope"></use>
+          </svg>
+          info@devstudio.com</a>
+
+        <a href="tel:+380961111111" class="link">
+          <svg class="nav-icon" width="10" height="15">
+            <use href="./images/sprite.svg#icon-smartphone"></use>
+          </svg>
+          +38 096 111 11 11</a>
+      </address>
+    </div>
+  </header>
+  <!-- Основное содержание -->
+  <main>
+    <!-- Герой -->
+    <section class="hero overlay">
+      <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+      <a href="" class="button">Заказать услугу</a>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="section underline">
+      <div class="container">
+        <!-- h2 потом скрыть!!! -->
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="list flex-features">
+          <li class="item">
+            <div class="features-icon">
+              <svg width="70" height="70">
+                <use href="./images/sprite.svg#icon-antenna-1"></use>
+              </svg>
+            </div>
+            <p class="title features">Внимание к деталям</p>
+            <p class="text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icon">
+              <svg width="70" height="70">
+                <use href="./images/sprite.svg#icon-clock-1"></use>
+              </svg>
+            </div>
+            <p class="title features">Пунктуальность</p>
+            <p class="text">
+              Задача организации, в особенности же рамки и место обучения
+              кадров влечет за собой.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icon">
+              <svg width="70" height="70">
+                <use href="./images/sprite.svg#icon-diagram-1"></use>
+              </svg>
+            </div>
+            <p class="title features">Планирование</p>
+            <p class="text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="item">
+            <div class="features-icon">
+              <svg width="70" height="70">
+                <use href="./images/sprite.svg#icon-astronaut-1"></use>
+              </svg>
+            </div>
+            <p class="title features">Современные технологии</p>
+            <p class="text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </div>
-    </header>
-    <!-- Основное содержание -->
-    <main>
-      <!-- Герой -->
-      <section class="hero overlay">
-        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
-        <a href="" class="button">Заказать услугу</a>
-      </section>
+    </section>
 
-      <!-- Преимущества -->
-      <section class="section underline">
-        <div class="container">
-          <!-- h2 потом скрыть!!! -->
-          <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="list flex-features">
-            <li class="item">
-              <div class="features-icon">
-                <svg width="70" height="70">
-                  <use href="./images/sprite.svg#icon-antenna-1"></use>
-                </svg>
-              </div>
-              <p class="title features">Внимание к деталям</p>
-              <p class="text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icon">
-                <svg width="70" height="70">
-                  <use href="./images/sprite.svg#icon-clock-1"></use>
-                </svg>
-              </div>
-              <p class="title features">Пунктуальность</p>
-              <p class="text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icon">
-                <svg width="70" height="70">
-                  <use href="./images/sprite.svg#icon-diagram-1"></use>
-                </svg>
-              </div>
-              <p class="title features">Планирование</p>
-              <p class="text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li class="item">
-              <div class="features-icon">
-                <svg width="70" height="70">
-                  <use href="./images/sprite.svg#icon-astronaut-1"></use>
-                </svg>
-              </div>
-              <p class="title features">Современные технологии</p>
-              <p class="text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <!-- Чем мы занимаемся -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title big">Чем мы занимаемся</h2>
+        <ul class="list flex-apps">
+          <li class="item">
+            <div class="img-wrap">
+              <a href=""><img src="./images/desktop-applications.jpg" alt="Десктопные
+                  приложения" width="370" height="294" class="img-responsive" /></a>
 
-      <!-- Чем мы занимаемся -->
-      <section class="section">
-        <div class="container">
-          <h2 class="title big">Чем мы занимаемся</h2>
-          <ul class="list flex-apps">
-            <li class="item">
-              <div class="img-wrap">
-                <a href=""
-                  ><img
-                    src="./images/desktop-applications.jpg"
-                    alt="Десктопные
-                  приложения"
-                    width="370"
-                    height="294"
-                    class="img-responsive"
-                /></a>
-
-                <h3 class="subtitle">Десктопные приложения</h3>
-              </div>
-            </li>
-            <li class="item">
-              <div class="img-wrap">
-                <a href=""
-                  ><img
-                    src="./images/mobile-applications.jpg"
-                    alt="Мобильные приложения"
-                    width="370"
-                    height="294"
-                    class="img-responsive"
-                /></a>
-                <h3 class="subtitle">Мобильные приложения</h3>
-              </div>
-            </li>
-            <li class="item">
-              <div class="img-wrap">
-                <a href=""
-                  ><img
-                    src="./images/desiner-solutions.jpg"
-                    alt="Дизайнерские решения"
-                    width="370"
-                    height="294"
-                    class="img-responsive"
-                /></a>
-                <h3 class="subtitle">Дизайнерские решения</h3>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Наша команда -->
-      <section class="section bg-highlighting">
-        <div class="container">
-          <h2 class="title big">Наша команда</h2>
-          <ul class="list flex-command">
-            <!-- Джон Смит -->
-
-            <li class="item">
-        
-                <img
-                  class="photo"
-                  src="./images/john-smith-photo.jpg"
-                  alt="Джон Смит"
-                  width="270"
-                  height="260"
-                />
-                <div class="card-command">
-                  <h3 class="title medium">John Smith</h3>
-                  <p class="text-small">Product Designer</p>
-                  <ul class="list flex-social">
-                    <li>
-                      <a class="icon-social" href=""
-                        ><svg width="20" height="20">
-                          <use
-                            href="./images/sprite.svg#icon-instagram"
-                          ></use></svg
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="icon-social" href=""
-                        ><svg width="20" height="20">
-                          <use
-                            href="./images/sprite.svg#icon-twitter"
-                          ></use></svg
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="icon-social" href=""
-                        ><svg width="20" height="20">
-                          <use
-                            href="./images/sprite.svg#icon-facebook"
-                          ></use></svg
-                      ></a>
-                    </li>
-                    <li>
-                      <a class="icon-social" href=""
-                        ><svg width="20" height="20">
-                          <use
-                            href="./images/sprite.svg#icon-linkedin"
-                          ></use></svg
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-       
-            </li>
-
-            <!-- Марта Стюарт -->
-            <li class="item">
-              <img
-                class="photo"
-                src="./images/marta-stewart-photo.jpg"
-                alt="Марта Стюарт"
-                width="270"
-                height="260"
-              />
-              <div class="card-command">
-                <h3 class="title medium">Marta Stewart</h3>
-                <p class="text-small">Frontend Developer</p>
-                <ul class="list flex-social">
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-facebook"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-linkedin"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <!-- Роберт Якис -->
-            <li class="item">
-              <img
-                class="photo"
-                src="./images/robert-jakis-photo.jpg"
-                alt="Роберт Якис"
-                width="270"
-                height="260"
-              />
-              <div class="card-command">
-                <h3 class="title medium">Robert Jakis</h3>
-                <p class="text-small">Marketing</p>
-                <ul class="list flex-social">
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-facebook"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-linkedin"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <!-- Мартин Доу -->
-            <li class="item">
-              <img
-                class="photo"
-                src="./images/martin-doe-photo.jpg"
-                alt="Мартин Доу"
-                width="270"
-                height="260"
-              />
-              <div class="card-command">
-                <h3 class="title medium">Martin Doe</h3>
-                <p class="text-small">UI Designer</p>
-                <ul class="list flex-social">
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use href="./images/sprite.svg#icon-twitter"></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-facebook"
-                        ></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="icon-social" href=""
-                      ><svg width="20" height="20">
-                        <use
-                          href="./images/sprite.svg#icon-linkedin"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Постоянные клиенты -->
-      <section class="section">
-        <div class="container">
-          <h2 class="title big">Постоянные клиенты</h2>
-          <ul class="list flex-company">
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="44" height="49">
-                    <use href="./images/sprite.svg#icon-logo-1"></use>
-                  </svg></div
-              ></a>
-            </li>
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="40" height="52">
-                    <use href="./images/sprite.svg#icon-logo-2"></use>
-                  </svg></div
-              ></a>
-            </li>
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="41" height="43">
-                    <use href="./images/sprite.svg#icon-logo-3"></use>
-                  </svg></div
-              ></a>
-            </li>
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="80" height="42">
-                    <use href="./images/sprite.svg#icon-logo-4"></use>
-                  </svg></div
-              ></a>
-            </li>
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="59" height="47">
-                    <use href="./images/sprite.svg#icon-logo-5"></use>
-                  </svg></div
-              ></a>
-            </li>
-            <li class="item">
-              <a href=""
-                ><div class="company-icon">
-                  <svg width="88" height="45">
-                    <use href="./images/sprite.svg#icon-logo-6"></use>
-                  </svg></div
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <!-- Футер -->
-    <footer class="page-footer">
-      <div class="container footer">
-        <div class="flex-footer">
-          <div class="flex-footer-address">
-            <a href="./index.html" class="logo logo-footer">
-              <span class="accent">Web</span> Studio
-            </a>
-            <address class="address-nav">
-              <a href="#" class="link item">г. Киев, пр-т Леси Украинки, 26</a>
-              <a href="mailto:info@devstudio.com" class="transparent item"
-                >info@example.com</a
-              >
-              <a href="tel:+380991111111" class="transparent item"
-                >+38 099 111 11 11</a
-              >
-            </address>
-          </div>
-          <div class="social slogan">
-            <p class="link">присоединяйтесь</p>
-            <ul class="list flex-social">
-              <li class="item">
-                <a class="icon-social" href=""
-                  ><svg width="20" height="20">
-                    <use href="./images/sprite.svg#icon-instagram"></use></svg
-                ></a>
-              </li>
-              <li class="item">
-                <a class="icon-social" href=""
-                  ><svg width="20" height="20">
-                    <use href="./images/sprite.svg#icon-twitter"></use></svg
-                ></a>
-              </li>
-              <li class="item">
-                <a class="icon-social" href=""
-                  ><svg width="20" height="20">
-                    <use href="./images/sprite.svg#icon-facebook"></use></svg
-                ></a>
-              </li>
-              <li class="item">
-                <a class="icon-social" href=""
-                  ><svg width="20" height="20">
-                    <use href="./images/sprite.svg#icon-linkedin"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="social">
-            <p class="link">Подпишитесь на рассылку</p>
-            <a href="" class="button subscription"
-              ><div class="subscribe">
-                <p>Подписаться</p>
-                <svg width="24" height="24">
-                  <use href="./images/sprite.svg#icon-icon-send"></use>
-                </svg>
-              </div>
-            </a>
-          </div>
-        </div>
-        <p class="author">2020 | Developed by GoIT Students</p>
+              <h3 class="subtitle">Десктопные приложения</h3>
+            </div>
+          </li>
+          <li class="item">
+            <div class="img-wrap">
+              <a href=""><img src="./images/mobile-applications.jpg" alt="Мобильные приложения" width="370" height="294"
+                  class="img-responsive" /></a>
+              <h3 class="subtitle">Мобильные приложения</h3>
+            </div>
+          </li>
+          <li class="item">
+            <div class="img-wrap">
+              <a href=""><img src="./images/desiner-solutions.jpg" alt="Дизайнерские решения" width="370" height="294"
+                  class="img-responsive" /></a>
+              <h3 class="subtitle">Дизайнерские решения</h3>
+            </div>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </body>
+    </section>
+    <!-- Наша команда -->
+    <section class="section bg-highlighting">
+      <div class="container">
+        <h2 class="title big">Наша команда</h2>
+        <ul class="list flex-command">
+          <!-- Джон Смит -->
+
+          <li class="item">
+            <img class="photo" src="./images/john-smith-photo.jpg" alt="Джон Смит" width="270" height="260" />
+            <div class="card-command">
+              <h3 class="title medium">John Smith</h3>
+              <p class="text-small">Product Designer</p>
+              <ul class="list flex-social">
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Марта Стюарт -->
+          <li class="item">
+            <img class="photo" src="./images/marta-stewart-photo.jpg" alt="Марта Стюарт" width="270" height="260" />
+            <div class="card-command">
+              <h3 class="title medium">Marta Stewart</h3>
+              <p class="text-small">Frontend Developer</p>
+              <ul class="list flex-social">
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Роберт Якис -->
+          <li class="item">
+            <img class="photo" src="./images/robert-jakis-photo.jpg" alt="Роберт Якис" width="270" height="260" />
+            <div class="card-command">
+              <h3 class="title medium">Robert Jakis</h3>
+              <p class="text-small">Marketing</p>
+              <ul class="list flex-social">
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Мартин Доу -->
+          <li class="item">
+            <img class="photo" src="./images/martin-doe-photo.jpg" alt="Мартин Доу" width="270" height="260" />
+            <div class="card-command">
+              <h3 class="title medium">Martin Doe</h3>
+              <p class="text-small">UI Designer</p>
+              <ul class="list flex-social">
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li>
+                  <a class="icon-social" href=""><svg width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Постоянные клиенты -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title big">Постоянные клиенты</h2>
+        <ul class="list flex-company">
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="44" height="49">
+                  <use href="./images/sprite.svg#icon-logo-1"></use>
+                </svg></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="40" height="52">
+                  <use href="./images/sprite.svg#icon-logo-2"></use>
+                </svg></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="41" height="43">
+                  <use href="./images/sprite.svg#icon-logo-3"></use>
+                </svg></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="80" height="42">
+                  <use href="./images/sprite.svg#icon-logo-4"></use>
+                </svg></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="59" height="47">
+                  <use href="./images/sprite.svg#icon-logo-5"></use>
+                </svg></div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="">
+              <div class="company-icon">
+                <svg width="88" height="45">
+                  <use href="./images/sprite.svg#icon-logo-6"></use>
+                </svg></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <!-- Футер -->
+  <footer class="page-footer">
+    <div class="container footer">
+      <div class="flex-footer">
+        <div class="flex-footer-address">
+          <a href="./index.html" class="logo logo-footer">
+            <span class="accent">Web</span> Studio
+          </a>
+          <address class="address-nav">
+            <a href="#" class="link item">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="mailto:info@devstudio.com" class="transparent item">info@example.com</a>
+            <a href="tel:+380991111111" class="transparent item">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="social slogan">
+          <p class="link">присоединяйтесь</p>
+          <ul class="list flex-social">
+            <li class="item">
+              <a class="icon-social" href=""><svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg></a>
+            </li>
+            <li class="item">
+              <a class="icon-social" href=""><svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg></a>
+            </li>
+            <li class="item">
+              <a class="icon-social" href=""><svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg></a>
+            </li>
+            <li class="item">
+              <a class="icon-social" href=""><svg width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-field social">
+          <label for="mail">Подпишитесь на рассылку</label>
+          <div class="flex-email">
+            <input type="email" name="mail" id="mail" placeholder="E-mail" />
+            <button type="submit" class="button subscription subscribe-icon">Подписаться
+              <svg width="24" height="24" class="icon-send">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg></button></div>
+        </div>
+
+      </div>
+      <p class="author">2020 | Developed by GoIT Students</p>
+    </div>
+  </footer>
+</body>
+
 </html>
