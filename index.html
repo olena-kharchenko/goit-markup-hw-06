@@ -59,23 +59,36 @@
           <form action="" class="form">
 
             <div class="form-field">
-              <label for="name">Имя</label>
-              <input type="text" name="name" id="name" autofocus />
+              <input type="text" name="name" id="name" placeholder="fgfggfffff" class="form-input" />
+              <label for="name" class="form-label">Имя</label>
+              <svg width="18" height="18" class="icon-form">
+                <use href="./images/sprite.svg#icon-person-black"></use>
+              </svg>
+
             </div>
 
             <div class="form-field">
-              <label for="tel">Телефон</label>
-              <input type="tel" name="tel" id="tel" />
+              <input type="tel" name="tel" id="tel" placeholder=" " class="form-input" />
+              <label for="tel" class="form-label">Телефон</label>
+              <svg width="18" height="18" class="icon-form">
+                <use href="./images/sprite.svg#phone-black"></use>
+              </svg>
+
             </div>
 
             <div class="form-field">
-              <label for="mail">Почта</label>
-              <input type="email" name="mail" id="mail" />
+              <input type="email" name="mail" id="mail" placeholder=" " class="form-input" />
+              <label for="mail" class="form-label">Почта</label>
+              <svg width="18" height="18" class="icon-form">
+                <use href="./images/sprite.svg#email-black"></use>
+              </svg>
+
             </div>
 
             <div class="form-field">
-              <label for="comment">Комментарий</label>
-              <textarea class="comment" name="comment" id="comment" rows="8"></textarea>
+              <textarea class="comment" name="comment" id="comment" rows="8" placeholder="    "
+                class="form-input"></textarea>
+              <label for="comment" class="form-label-comment">Комментарий</label>
             </div>
 
             <button type="submit" class="button">Отправить</button>
